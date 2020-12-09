@@ -10,12 +10,16 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/16f57ace59.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" type="text/css" href="ttps://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+        
 </head>
 <body>
     <div class="wrapper">
         <header>
             <div class="logo">
-                <i class="fa fa-wpexplorer" aria-hidden="true"></i>
+                <i class="fa fa-wpexplorer fa-5x" aria-hidden="true" style="color: #fff;" ></i>
             </div>
             <div class="menu">
                 <ul>
@@ -25,7 +29,10 @@
                     <li><a href="#">Contact</a></li>
 
                 </ul>
-                <div class="toggleBtn"></div>
+                <div class="toggleBtn">
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </header>
 
@@ -37,7 +44,7 @@
                     <div class="item-image">
                         <img src="./img/models_1.jpeg" alt="">
                     </div>
-                    <div class="caption">
+                    <div class="caption" data-count="01">
                         <h1>Fashion</h1>
                         <h4>Top fashioned Model Awards</h4>
                     </div>
@@ -47,7 +54,7 @@
                     <div class="item-image">
                         <img src="./img/model_6.jpeg" alt="">
                     </div>
-                    <div class="caption">
+                    <div class="caption" data-count="02">
                         <h1>Fashion</h1>
                         <h4>Top fashioned Model Awards</h4>
                     </div>
@@ -57,16 +64,42 @@
                     <div class="item-image">
                         <img src="./img/model_2.jpeg" alt="">
                     </div>
-                    <div class="caption">
+                    <div class="caption" data-count="03">
                         <h1>Fashion</h1>
                         <h4>Top fashioned Model Awards</h4>
                     </div>
                 </div>
 
 
-
                 </div>
             </div>
+
+            <!--Bottom Link  -->
+            <div class="bottom-link">
+                <div class="left">
+                    <a href="#">Autumn & Winter 2018</a>
+                    <a href="#">Autumn & Winter 2019</a>
+                    <a href="#">Spring & Summer 2019</a>
+                </div>
+                <div class="right">
+                    <a href="#">Explore Model</a>
+                </div>
+            </div>
+
+<div class="slide-overlay"></div>
+
         </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
+"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    $('.slider').slick({
+
+    });
+
+
+</script>
+
 </body>
 </html>
