@@ -11,9 +11,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/16f57ace59.js" crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" type="text/css" href="ttps://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-        
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.cs"> -->
+     <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css.map"> -->
 </head>
 <body>
     <div class="wrapper">
@@ -40,6 +41,8 @@
 
         <div class="slider-wrap">
             <div class="slider">
+
+
                 <div class="item">
                     <div class="item-image">
                         <img src="./img/models_1.jpeg" alt="">
@@ -72,9 +75,8 @@
                     </div>
                     <div class="slide-overlay"></div>
                 </div>
-
-
                 </div>
+             
             </div>
 
             <!--Bottom Link  -->
@@ -88,7 +90,9 @@
                     <a href="#">Explore Model</a>
                 </div>
             </div>
+<!-- <span class="priv_arrow"><i class="fa fa-arrow-up fa-5x" aria-hidden="true" style="color: #fff;" ></i></span>
 
+<span class="next_arrow"><i class="fa fa-arrow-down fa-5x" aria-hidden="true" style="color: #fff;"></i></span> -->
 
         </div>
 
@@ -99,9 +103,13 @@
 <script>
     $('.slider').slick({
         dots:true,
-        vertical:true
+        vertical:true,
+        prevArrow: '<span class="priv_arrow"><i class="fa fa-arrow-up fa-5x" aria-hidden="true" style="color: #fff;" ></i></span>',
+        nextArrow: '<span class="next_arrow"><i class="fa fa-arrow-down fa-5x" aria-hidden="true" style="color: #fff;"  ></i></span>',
+
 
     });
+
     $(".toggleBtn").on('click', function(){
         $(this).toggleClass("toggleBtnActive");
         $(".menu ul").slideToggle();

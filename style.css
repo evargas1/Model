@@ -42,7 +42,7 @@ header {
 }
 
 .toggleBtn {
-  display: inline-block;
+  /* display: inline-block; */
   position: relative;
   width: 30px;
   height: 30px;
@@ -105,33 +105,80 @@ header {
 
 /*             HARDCODED CLASS TO IMPORT ICONS WILL BE CREATED  */
 
-.slick-arrow {
+.slider .priv_arrow {
+  width: 50px;
+  height: 50px;
+  background-color: chocolate;
+  border-radius: 50%;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+.slider .next_arrow {
+  width: 70px;
+  height: 70px;
+  background-color: chocolate;
+  border-radius: 50%;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+.next_arrow,
+.priv_arrow {
   position: absolute;
-  font-size: 0;
+
   width: 17px;
   height: 81px;
-  background-size: contain;
-  background-position: center;
-  border: 0;
+
   left: 50px;
   z-index: 9;
 }
-.slick-prev,
-.slick-prev:hover,
-.slick-prev:focus {
-  background: image(<i class= "fa fa-arrow-up" aria-hidden= "true" ></i>);
+.priv_arrow,
+.priv_arrow :hover,
+.priv_arrow :focus {
   top: 40%;
 }
-.slick-next,
-.slick-next:hover,
-.slick-next:focus {
-  background: image(<i class= "fa fa-arrow-up" aria-hidden= "true" ></i>);
+.next_arrow,
+.next_arrow:hover,
+.next_arrow:focus {
   top: 55%;
+  z-index: 9;
 }
-.slick-next:before,
-.slick-prev:before {
-  display: none;
+
+/* .slick-prev:after {
+  content: ">";
+  color: red;
+  font-size: 60px;
+  left: 400px;
+  z-index: 9;
 }
+
+.slick-next:before {
+  content: "<";
+  color: red;
+  font-size: 90px;
+  left: 600px;
+  z-index: 9;
+  color: transparent;
+} */
+/* 
+.slick-arrow {
+  width: 40px;
+  height: 100px;
+  background-color: teal;
+  left: 40px;
+  top: 60%;
+  display: inline;
+} */
+
+/* .slick-prev {
+  left: 400px;
+  display: initial;
+}
+.slick-next {
+  left: 600px;
+  display: initial;
+} */
 
 /*         SLIDER DOTS       */
 .slick-dots {
