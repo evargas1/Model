@@ -57,6 +57,7 @@ header {
   background-color: #fff;
   top: 0;
   left: 0;
+  transition: all ease 0.5s;
 }
 .toggleBtn span:nth-child(2) {
   top: 15px;
@@ -76,6 +77,7 @@ header {
   color: #fff;
   padding: 230px 0;
   position: absolute;
+  z-index: 2;
 }
 .caption h1 {
   font-weight: 400;
@@ -100,6 +102,9 @@ header {
   font-weight: 300;
   opacity: 0.1;
 }
+
+/*             HARDCODED CLASS TO IMPORT ICONS WILL BE CREATED  */
+
 .slick-arrow {
   position: absolute;
   font-size: 0;
@@ -174,4 +179,65 @@ header {
   z-index: 99;
   bottom: 0;
   left: 0;
+}
+.bottom-link .left {
+  float: left;
+}
+.bottom-link .right {
+  float: right;
+}
+.bottom-link a {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 18px;
+}
+.bottom-link .right a {
+  letter-spacing: 3px;
+}
+.bottom-link .left a {
+  padding-right: 90px;
+}
+.bottom-link .left a:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  background-color: #fff;
+  right: 25px;
+  top: 50%;
+}
+.bottom-link .left a:last-child:after {
+  display: none;
+}
+
+/*         SIDE OVERLAY     */
+.side-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 330px;
+  height: 100%;
+  background-color: #111111;
+  z-index: 1;
+}
+.slider-wrap {
+  position: relative;
+  z-index: 9;
+}
+.slider .slick-slider {
+  margin-bottom: 0;
+}
+.toggleBtnActive span {
+  transform: rotate(35deg);
+}
+.toggleBtnActive span:nth-child(1) {
+  transform: rotate(-35deg);
+  top: 15px;
+}
+.toggleBtnActive span {
+  top: 10px;
 }

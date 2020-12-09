@@ -29,7 +29,7 @@
                     <li><a href="#">Contact</a></li>
 
                 </ul>
-                <div class="toggleBtn">
+                <div class="toggleBtn toggleBtnActive">
                     <span></span>
                     <span></span>
                 </div>
@@ -48,6 +48,7 @@
                         <h1>Fashion</h1>
                         <h4>Top fashioned Model Awards</h4>
                     </div>
+                    <div class="slide-overlay"></div>
                 </div>
 
                 <div class="item">
@@ -58,6 +59,7 @@
                         <h1>Fashion</h1>
                         <h4>Top fashioned Model Awards</h4>
                     </div>
+                    <div class="slide-overlay"></div>
                 </div>
 
                 <div class="item">
@@ -68,6 +70,7 @@
                         <h1>Fashion</h1>
                         <h4>Top fashioned Model Awards</h4>
                     </div>
+                    <div class="slide-overlay"></div>
                 </div>
 
 
@@ -86,15 +89,22 @@
                 </div>
             </div>
 
-<div class="slide-overlay"></div>
 
         </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
 "></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!-- this was the javascript typed verbandem -->
 <script>
     $('.slider').slick({
+        dots:true,
+        vertical:true
+
+    });
+    $(".toggleBtn").on('click', function(){
+        $(this).toggleClass("toggleBtnActive");
+        $(".menu ul").slideToggle();
 
     });
 
