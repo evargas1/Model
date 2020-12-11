@@ -222,6 +222,10 @@ header {
   font-weight: 300;
   font-size: 18px;
 }
+.bottom-link a:hover {
+  color: rgb(146, 144, 144);
+  text-decoration: none;
+}
 .bottom-link .right a {
   letter-spacing: 3px;
 }
