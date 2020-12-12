@@ -345,7 +345,7 @@ header {
   /* height: 80vh; */
 }
 .slider .one-model {
-  background-color: rgb(46, 54, 58);
+  background-color: rgb(38, 44, 38);
 }
 .slider .two-model {
   background-color: rgb(31, 25, 19);
@@ -360,7 +360,7 @@ header {
   background-color: rgb(99, 94, 98);
 }
 .slider .six-model {
-  background-color: rgb(43, 65, 94);
+  background-color: rgb(32, 48, 68);
 }
 .item-headshot {
   margin-right: 90px;
@@ -376,7 +376,7 @@ header {
 }
 .box-info h1 {
   font-weight: 400;
-  font-size: 50px;
+  font-size: 60px;
   text-transform: uppercase;
   letter-spacing: 5px;
   text-shadow: 5px 7px 0 rgba(0 0 0 / 0.25);
@@ -397,9 +397,8 @@ header {
 }
 .view-more-butt {
   float: right;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 52px;
-  color: #fff;
 }
 .view-more-butt button {
   padding: 10px;
@@ -412,4 +411,68 @@ header {
 }
 .view-more-butt button a {
   color: #fff;
+}
+.view-more-butt button a:hover {
+  color: rgb(180, 185, 180);
+  text-decoration: none;
+}
+#one-butt button {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: solid 3px #fff;
+  background-color: rgb(38, 44, 38);
+}
+#box-info2 {
+  padding: 130px 690px 150px 40px;
+}
+#box-info1 {
+  padding: 130px 690px 150px 40px;
+}
+#two-butt button {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: solid 3px #fff;
+  background-color: rgb(31, 25, 19);
+}
+#three-butt button {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: solid 3px #fff;
+  background-color: rgb(14, 11, 9);
+}
+#four-butt button {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: solid 3px #fff;
+  background-color: rgb(102, 121, 105);
+}
+#five-butt button {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: solid 3px #fff;
+  background-color: rgb(99, 94, 98);
+}
+#six-butt button {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: solid 3px #fff;
+  background-color: rgb(32, 48, 68);
 }
