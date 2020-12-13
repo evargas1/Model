@@ -483,3 +483,7 @@ header {
 /* #36473D thrid background color */
 /* C28923 fourth background color */
 /* #682321 fifth background color */
+
+.item-college {
+  float: right;
+}
