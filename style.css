@@ -484,6 +484,37 @@ header {
 /* C28923 fourth background color */
 /* #682321 fifth background color */
 
-.item-college {
+.item-college img {
   float: right;
+}
+.slider .one-coll {
+  background-color: #9ea39d;
+}
+.slider .two-coll {
+  background-color: #36473d;
+}
+.slider .three-coll {
+  background-color: #c28923;
+}
+.slider .four-coll {
+  background-color: #0a0913;
+}
+.slider .five-coll {
+  background-color: #682321;
+}
+#box-coll4 {
+  padding: 130px 690px 150px 40px;
+}
+#box-coll5 {
+  padding: 130px 690px 150px 40px;
+}
+
+.box-coll .under {
+  position: absolute;
+  top: 65%;
+  left: -10%;
+  color: #fff;
+  font-size: 250px;
+  font-weight: 300;
+  opacity: 0.1;
 }
