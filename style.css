@@ -177,7 +177,7 @@ header {
   /* width: 200px !important; */
   bottom: inherit;
   top: 30%;
-  right: -44%;
+  right: -42.5%;
   display: flex !important;
   flex-direction: column !important;
   align-items: flex-start !important;
@@ -523,9 +523,64 @@ header {
 .box-coll .under {
   position: absolute;
   top: 65%;
+  left: -4%;
+  color: #fff;
+  font-size: 250px;
+  font-weight: 300;
+  opacity: 0.1;
+}
+.box-coll .under2 {
+  position: absolute;
+  top: 95%;
+  left: 15%;
+  color: rgb(176, 195, 223);
+  font-size: 100px;
+  font-weight: 300;
+  opacity: 0.3;
+}
+.box-coll .under22 {
+  position: absolute;
+  top: 95%;
+  left: 15%;
+  color: rgb(190, 194, 138);
+  font-size: 100px;
+  font-weight: 300;
+  opacity: 0.3;
+}
+.box-coll .under1 {
+  position: absolute;
+  top: 65%;
   left: -10%;
   color: #fff;
   font-size: 250px;
   font-weight: 300;
   opacity: 0.1;
+}
+.box-coll .under222 {
+  position: absolute;
+  top: 95%;
+  left: 15%;
+  color: rgb(145, 66, 66);
+  font-size: 100px;
+  font-weight: 300;
+  opacity: 0.3;
+}
+.box-coll .under2222 {
+  position: absolute;
+  top: 95%;
+  left: 15%;
+  color: rgb(118, 60, 133);
+  font-size: 100px;
+  font-weight: 300;
+  opacity: 0.3;
+}
+
+.box-coll .under22222 {
+  position: absolute;
+  top: 95%;
+  left: 15%;
+  color: rgb(131, 116, 66);
+  font-size: 100px;
+  font-weight: 300;
+  opacity: 0.3;
 }
