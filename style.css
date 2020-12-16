@@ -588,16 +588,23 @@ header {
 /* ---------------This will beigin the code for the about page that will include tetsiomnals and a short about us story ---------------- */
 
 
+.learn-more-butt{
+  margin-bottom: 30px;
+}
+
+
 /* Slideshow container */
 .slideshow-container {
-  position: relative;
+  position: absolute;
   background: #f1f1f1f1;
+  width: 650px;
+
 }
 
 /* Slides */
 .mySlides {
-  display: none;
-  padding: 80px;
+  margin-top: 30px;
+  padding: 40px;
   text-align: center;
 }
 
@@ -631,9 +638,12 @@ header {
 
 /* The dot/bullet/indicator container */
 .dot-container {
+  position: absolute;
   text-align: center;
   padding: 20px;
   background: #ddd;
+  top: 115%;
+  left: 20%;
 }
 
 /* The dots/bullets/indicators */
@@ -666,5 +676,5 @@ q {font-style: italic;}
   position: absolute;
   left: 10%;
 
-  z-index: 2;
+  /* z-index: 2; */
 }
