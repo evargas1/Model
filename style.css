@@ -312,7 +312,9 @@ header {
 }
 
 /* ----------------Model Page ------------------ */
-
+.slider .item{
+  height: 100vh;
+}
 .sec-menu {
   float: right;
   position: absolute;
@@ -501,6 +503,15 @@ header {
 }
 .slider .five-coll {
   background-color: #682321;
+}
+#box-coll1 {
+  padding: 130px 690px 150px 40px;
+}
+#box-coll2 {
+  padding: 130px 690px 150px 40px;
+}
+#box-coll3 {
+  padding: 130px 690px 150px 40px;
 }
 #box-coll4 {
   padding: 130px 690px 150px 40px;
