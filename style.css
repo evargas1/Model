@@ -587,9 +587,82 @@ header {
 
 /* ---------------This will beigin the code for the about page that will include tetsiomnals and a short about us story ---------------- */
 
+.about-page h1{
+  font-weight: 400;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 5px 7px 0 rgba(0 0 0 / 0.25);
+  padding-bottom: 20px;
+}
+.about-page h5{
+  font-weight: 200;
+  font-size: 15px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.learn-more-butt{
+  float: right;
+  margin-top: 20px;
+  margin-right: 52px;
+  margin-bottom: 40px;
+}
+.learn-more-butt button{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: solid 3px #fff;
+  background-color: rgb(99, 94, 98);
+
+}
+.learn-more-butt button a {
+  color: #fff;
+}
+.learn-more-butt
+button a:hover {
+  color: rgb(180, 185, 180);
+  text-decoration: none;
+}
+
+/* Example code */
+/* 
+
+.box-info h4 {
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 8px;
+}
+.box-info p {
+  font-weight: 200;
+  font-size: 15px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.view-more-butt {
+  float: right;
+  margin-top: 20px;
+  margin-right: 52px;
+}
+.view-more-butt button {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: solid 3px #fff;
+  background-color: rgb(99, 94, 98);
+}
+
+*/
+
+
 
 .learn-more-butt{
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 
@@ -598,12 +671,13 @@ header {
   position: absolute;
   background: #f1f1f1f1;
   width: 650px;
+  top: 85%;
 
 }
 
 /* Slides */
 .mySlides {
-  margin-top: 30px;
+  margin-top: 50px;
   padding: 40px;
   text-align: center;
 }
@@ -642,7 +716,7 @@ header {
   text-align: center;
   padding: 20px;
   background: #ddd;
-  top: 115%;
+  top: 122%;
   left: 20%;
 }
 
